@@ -5,6 +5,13 @@
 
 body {
     font-family: 'Tauri', sans-serif;
+    background-color: rgba(250, 243, 234, 0.954);
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: rgb(247, 156, 28);
 }
 
 nav ul {
@@ -23,6 +30,7 @@ nav b {
 
 .navbar {
     position: fixed;
+    z-index: 999;
     top: 0;
     width: 100%;
     background-color: rgb(255, 178, 70);
@@ -49,4 +57,9 @@ nav b {
 .nav-pills .nav-item .nav-link.active:focus {
     background-color: rgb(43, 128, 226);
     color: aliceblue;
+}
+
+.imagen-con-zoom {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    background-size: cover; /* Ajustar la imagen al contenedor manteniendo su relación de aspecto */
 }

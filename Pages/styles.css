@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Tauri';
+    src: url('../Fonts/Tauri-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Tauri', sans-serif;
+}
+
+nav ul {
+    font-size: 13px;
+}
+
+nav b {
+    font-size: 16px;
+}
+
+.no-fw {
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 178, 70);
+    box-shadow: 5px 5px 10px 0px rgba(146, 146, 146, 0.684);
+}
+
+.nav-link {
+    background-color: rgb(65, 156, 208);
+    border-color: rgb(65, 156, 208);
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}
+
+.nav-pills .nav-item .nav-link.active:focus {
+    background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}

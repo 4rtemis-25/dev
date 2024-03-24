@@ -59,7 +59,6 @@ nav b {
     color: aliceblue;
 }
 
-.imagen-con-zoom {
-    width: 100%; /* Ajustar al ancho del contenedor */
-    background-size: cover; /* Ajustar la imagen al contenedor manteniendo su relación de aspecto */
+.card-style {
+    height: 360px;
 }

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Tauri';
+    src: url('Fonts/Tauri-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Tauri', sans-serif;
+    background-color: #010409
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: aliceblue
+}
+
+nav ul {
+    font-size: 13px;
+}
+
+nav b {
+    font-size: 16px;
+}
+
+.no-fw {
+    color: rgb(255, 178, 70);
+    font-weight: normal;
+    font-size: 17px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.fw-l {
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.93);
+    box-shadow: 5px 5px 10px 0px rgba(146, 146, 146, 0.684);
+}
+
+.nav-link {
+    background-color: rgb(255, 178, 70);
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: aliceblue;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}
+
+.nav-pills .nav-item .nav-link.active:focus {
+    background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}
+
+.card-style {
+    box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
+    transition: background-color 0.4s ease;
+}
+
+.card-style:hover {
+    cursor: pointer;
+    background-color: rgb(255, 178, 70);
+}
+
+#skills {
+    background-color: rgba(255, 255, 255, 0.93);
+    box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
+}
+
+#skills svg,
+#skills img {
+    height: 120px;
+    width: 100px;
+}
+
+#contact svg {
+    height: 100px;
+    width: 100px;
+}
+
+.r-image {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+
+.tooltip-inner {
+    background-color: #474747;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid #474747;
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
+    border-top-color: #474747;
+}
+
+/* STYLES SCROLL */
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b7b7b7c5;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}

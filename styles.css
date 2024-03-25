@@ -53,7 +53,7 @@ h2 {
 }
 
 .nav-link:hover {
-    background-color: rgb(43, 128, 226);
+    background-color: #010409;
     color: aliceblue;
 }
 
@@ -63,12 +63,12 @@ h2 {
 }
 
 .nav-pills .nav-item .nav-link.active {
-    background-color: rgb(43, 128, 226);
+    background-color: #010409;
     color: aliceblue;
 }
 
 .nav-pills .nav-item .nav-link.active:focus {
-    background-color: rgb(43, 128, 226);
+    background-color: #010409;
     color: aliceblue;
 }
 
@@ -94,8 +94,28 @@ h2 {
 }
 
 #contact svg {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+}
+
+.git, .email, .whatsapp {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.git:hover path {
+    fill: #F05032;
+    color: #F05032;
+}
+
+.email:hover path {
+    fill: #32aaf0e2;
+    color: #32aaf0e2;
+}
+
+.whatsapp:hover path {
+    fill: #25D366;
+    color: #25D366;
 }
 
 .r-image {

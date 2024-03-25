@@ -73,13 +73,16 @@ h2 {
 }
 
 .card-style {
+    background-color: rgba(255, 255, 255, 0.93);
     box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
-    transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.2s ease;;
 }
 
 .card-style:hover {
     cursor: pointer;
-    background-color: rgb(255, 178, 70);
+    background-color: #010409;
+    color: aliceblue;
+    border: 1px solid rgba(234, 234, 234, 0.829);
 }
 
 #skills {
@@ -106,16 +109,19 @@ h2 {
 .git:hover path {
     fill: #F05032;
     color: #F05032;
+    transition: fill 0.4s ease
 }
 
 .email:hover path {
     fill: #32aaf0e2;
     color: #32aaf0e2;
+    transition: fill 0.4s ease
 }
 
 .whatsapp:hover path {
     fill: #25D366;
     color: #25D366;
+    transition: fill 0.4s ease
 }
 
 .r-image {

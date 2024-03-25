@@ -74,20 +74,26 @@ h2 {
 
 .card-style {
     box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
+    transition: background-color 0.4s ease;
 }
 
-#scrollspyHeading2 {
+.card-style:hover {
+    cursor: pointer;
+    background-color: rgb(255, 178, 70);
+}
+
+#skills {
     background-color: rgba(255, 255, 255, 0.93);
     box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
 }
 
-#scrollspyHeading2 svg,
-#scrollspyHeading2 img {
+#skills svg,
+#skills img {
     height: 120px;
     width: 100px;
 }
 
-#scrollspyHeading3 svg {
+#contact svg {
     height: 100px;
     width: 100px;
 }

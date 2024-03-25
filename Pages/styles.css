@@ -5,13 +5,13 @@
 
 body {
     font-family: 'Tauri', sans-serif;
-    background-color: #ffbf7a
+    background-color: #010409
 }
 
 hr {
     border: 0;
     height: 2px;
-    background-color: rgb(0, 0, 0)
+    background-color: aliceblue
 }
 
 nav ul {
@@ -28,6 +28,15 @@ nav b {
     font-size: 17px;
 }
 
+h2 {
+    color: aliceblue;
+}
+
+.fw-l {
+    color: aliceblue;
+    font-weight: lighter;
+}
+
 .navbar {
     position: fixed;
     z-index: 999;
@@ -38,14 +47,18 @@ nav b {
 }
 
 .nav-link {
-    background-color: rgb(65, 156, 208);
-    border-color: rgb(65, 156, 208);
+    background-color: rgb(255, 178, 70);
     margin-left: 10px;
     color: aliceblue;
 }
 
 .nav-link:hover {
     background-color: rgb(43, 128, 226);
+    color: aliceblue;
+}
+
+.nav-link:focus,
+.nav-link:hover {
     color: aliceblue;
 }
 
@@ -60,14 +73,56 @@ nav b {
 }
 
 .card-style {
-    box-shadow: 5px 5px 10px 0px rgba(146, 146, 146, 0.684);
+    box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
 }
 
 #scrollspyHeading2 {
     background-color: rgba(255, 255, 255, 0.93);
+    box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
 }
 
-#scrollspyHeading2 svg, #scrollspyHeading2 img {
-    height: 180px;
+#scrollspyHeading2 svg,
+#scrollspyHeading2 img {
+    height: 120px;
     width: 100px;
+}
+
+#scrollspyHeading3 svg {
+    height: 100px;
+    width: 100px;
+}
+
+.r-image {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+
+.tooltip-inner {
+    background-color: #474747;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid #474747;
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
+    border-top-color: #474747;
+}
+
+/* STYLES SCROLL */
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b7b7b7c5;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
 }

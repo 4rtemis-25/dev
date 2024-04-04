@@ -72,6 +72,10 @@ h2 {
     color: aliceblue;
 }
 
+.scrollspy-example {
+    margin-top: 90px;
+}
+
 .card-style {
     background-color: rgba(255, 255, 255, 0.93);
     box-shadow: 8px 8px 10px 0px rgba(146, 146, 146, 0.684);
@@ -97,6 +101,11 @@ h2 {
 }
 
 #contact svg {
+    height: 60px;
+    width: 60px;
+}
+
+#contactM svg {
     height: 60px;
     width: 60px;
 }
@@ -132,16 +141,16 @@ h2 {
 }
 
 .tooltip-inner {
-    background-color: #474747;
+    background-color: #010409;
     color: #fff;
     font-size: 14px;
     border-radius: 8px;
-    border: 2px solid #474747;
+    border: 2px solid #010409;
 }
 
 .bs-tooltip-top .tooltip-arrow::before,
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
-    border-top-color: #474747;
+    border-top-color: #010409;
 }
 
 /* STYLES SCROLL */
@@ -157,4 +166,11 @@ h2 {
 
 ::-webkit-scrollbar-corner {
     background-color: transparent;
+}
+
+/* MEDIAQUERIES */
+@media (max-width: 767px) {
+    .scrollspy-example {
+        margin-top: 70px;
+    }
 }
